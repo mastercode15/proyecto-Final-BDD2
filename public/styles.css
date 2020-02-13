@@ -1,0 +1,17 @@
+.minInput {
+    width: 100px;
+    height: 20px;
+}
+
+.doubleCol{
+    width: 35%;
+}
+
+.col-2 input {
+    overflow: visible;
+    height: 20px;
+}
+
+.col-6 input {
+    width: 90%;
+} 

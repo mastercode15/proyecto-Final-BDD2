@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 102 <A></A></title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+
+<body>
+    <div class="row justify-content-center">
+        <div class="col text-center">
+            <h1>DECLARACIÓN DE RETENCIONES EN LA FUENTE DEL IMPUESTO A LA RENTA</h1>
+            <h2>FORMULARIO 102 A</h2>
+            <h3>RESOLUCIÓN N° NAC-DGERCGC18-00000015</h3>
+        </div>
+    </div>
+    <form>
+        <div class="row">
+            <div class="col-6 text-center">
+                Identificación de la declaración<br>
+                <input type="number" min="0" name="idDeclaracion" id="idDeclaracion" required><br>
+                IDENTIFICACIÓN DEL SUJETO PASIVO <br>
+                <input type="text" id="ruc" required>
+            </div>
+            <div class="col-6 text-center">
+                Formulario al que sustituye <input type="text" name="formulario" id="formulario"> <br>
+                APELLIDOS Y NOMBRES COMPLETOS / RAZÓN O DENOMINACIÓN SOCIAL DE LA SUCESIÓN INDIVISA <br>
+                <input type="text" id="nombre" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-8 text-right">
+                RENTAS GRAVADAS DE TRABAJO Y CAPITAL <br>
+
+                ACTIVIDADES EMPRESARIALES CON REGISTRO DE INGRESOS Y EGRESOS <br>
+                INGRESOS SUJETOS A IMPUESTO A LA RENTA ÚNICO <br>
+                LIBRE EJERCICIO PROFESIONAL <br>
+                OCUPACIÓN LIBERAL (INCLUYE COMISIONISTAS, ARTESANOS, AGENTES, REPRESENTANTES Y DEMÁS TRABAJADORES
+                AUTÓNOMOS) <br>
+                ARRIENDO DE BIENES INMUEBLES (Avalúo) 703<input type="number" min="0" id="703" class="minInput"> <br>
+                ARRIENDO DE OTROS ACTIVOS (Avalúo) 704<input type="number" min="0" id="704" class="minInput"> <br>
+                RENTAS AGRÍCOLAS (Avalúo) 705<input type="number" min="0" id="705" class="minInput"> <br>
+                INGRESO POR REGALÍAS <br>
+                INGRESOS PROVENIENTES DEL EXTERIOR <br>
+                RENDIMIENTOS FINANCIEROS <br>
+                DIVIDENDOS <br>
+                UTILIDAD EN LA ENAJENACIÓN DE DERECHOS REPRESENTATIVOS DE CAPITAL <br>
+                OTRAS RENTAS GRAVADAS <br>
+                SUBTOTAL <br>
+                RENTA IMPONIBLE ANTES DE INGRESOS POR TRABAJO EN RELACIÓN DE DEPENDENCIA <br>
+                SUELDOS, SALARIOS, INDEMNIZACIONES Y OTROS INGRESOS LÍQUIDOS DEL TRABAJO EN RELACIÓN DE DEPENDENCIA <br>
+                SUBTOTAL BASE GRAVADA
+            </div>
+            <div class="col-2">
+                Base Imponible <br>
+                481 <input type="number" min="0" id="481"><br>
+                710 <input type="number" min="0" id="710"><br>
+                711 <input type="number" min="0" id="711"><br>
+                712 <input type="number" min="0" id="712"><br>
+                713 <input type="number" min="0" id="713"><br>
+                714 <input type="number" min="0" id="714"><br>
+                715 <input type="number" min="0" id="715"><br>
+                716 <input type="number" min="0" id="716"><br>
+                717 <input type="number" min="0" id="717"><br>
+                718 <input type="number" min="0" id="718"><br>
+                719 <input type="number" min="0" id="719"><br>
+                720 <input type="number" min="0" id="720"><br>
+                730 <input type="number" min="0" id="730"><br>
+                729 <input type="number" min="0" id="729"><br><br>
+                741 <input type="number" min="0" id="741"><br>
+            </div>
+            <div class="col-2">
+                Valor Retenido <br>
+                491 <input type="number" min="0" id="491"><br><br>
+                721 <input type="number" min="0" id="721"><br>
+                722 <input type="number" min="0" id="722"><br>
+                723 <input type="number" min="0" id="723"><br>
+                724 <input type="number" min="0" id="724"><br>
+                725 <input type="number" min="0" id="725"><br><br><br><br><br><br>
+                731 <input type="number" min="0" id="731"><br>
+                739 <input type="number" min="0" id="739"><br>
+                749 <input type="number" min="0" id="749"><br>
+                751 <input type="number" min="0" id="751" class="doubleCol"> 759 <input type="number" min="0" id="759"
+                    class="doubleCol"><br>
+                769 <input type="number" min="0" id="769"><br>
+            </div>
+        </div>
+        <br><br><br>
+
+        <button onclick="save102()">Guardar</button>
+    </form>
+
+</body>
+
+</html>
